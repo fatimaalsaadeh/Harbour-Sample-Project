@@ -1,0 +1,90 @@
+{
+  "contracts_index": {
+    "properties": {
+      "Purchase Order Description": {
+        "type": "text",
+        "fielddata": true
+      },
+      "Purchase Order (Contract) Number": {
+        "type": "text",
+        "fielddata": true
+      },
+      "Revision Number": {
+        "type": "integer",
+        "fielddata": true
+      },
+      "Specification Number": {
+        "type": "text",
+        "fielddata": true
+      },
+      "Contract Type": {
+        "type": "keyword",
+        "fielddata": true
+      },
+      "Department": {
+        "type": "keyword",
+        "fielddata": true
+      },
+      "Vendor Name": {
+        "type": "keyword",
+        "fielddata": true
+      },
+      "Vendor ID": {
+        "type": "keyword",
+        "fielddata": true
+      },
+      "Address 1": {
+        "type": "text",
+        "fielddata": true
+      },
+      "Address 2": {
+        "type": "text",
+        "fielddata": true
+      },
+      "City": {
+        "type": "text",
+        "fielddata": true
+      },
+      "State": {
+        "type": "text",
+        "fielddata": true
+      },
+      "Start Date": {
+        "type": "date",
+        "format": "epoch_second"
+      },
+      "End Date": {
+        "type": "date",
+        "format": "epoch_second"
+      },
+      "Approval Date": {
+        "type": "date",
+        "format": "epoch_second"
+      },
+      "Procurement Type": {
+        "type": "text",
+        "fielddata": true
+      },
+      "Contract PDF": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "Zip": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "Award Amount": {
+        "type": "integer",
+        "fielddata": true
+      }
+    }
+  }
+}
