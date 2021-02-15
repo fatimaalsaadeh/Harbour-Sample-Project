@@ -1,7 +1,7 @@
 # Harbour Sample Project
 **Project Simple User Interface Demo**
 ![Farmers Market Finder Demo](imgs/demo.gif)
-**Elasticsearch Graph Demo**
+**Elasticsearch Graph Demo** Click on the image for the demo
 [![Watch the video](imgs/graph.png)](https://drive.google.com/file/d/17mCO_9gDyRCpuSnpDejOeSGtkOwdGZtE/view?usp=sharing)
 
 # Dataset
